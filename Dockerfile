@@ -13,4 +13,4 @@ RUN pip install .
 EXPOSE 9900
 
 # Avvia il server MCP in modalità SSE
-CMD ["python", "-m", "mcp_server_opensearch", "--transport", "sse"]
+CMD ["python", "-m", "mcp_server_opensearch", "--transport", "stream"]
